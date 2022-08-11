@@ -19,6 +19,6 @@ app.use(userRouter);
 
 connectDatabase()
 .then(()=>
-app.listen(8080,()=> console.log('Started listning at http://localhost:8080'))
+app.listen(8080,()=> console.log('Started listning'))
 )
 .catch((err) => console.log(err));

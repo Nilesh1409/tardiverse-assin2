@@ -19,7 +19,7 @@ async function createUser(req,res){
 
 }
 
-let SECRET = "KJLDFKHG87DS9D89EW"
+let SECRET = process.env.SECRET;
 
 async function login(req,res){
     console.log('inlogin')
